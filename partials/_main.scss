@@ -1,0 +1,97 @@
+main {
+    margin-top: -31px;
+    .section-my-list {
+        p {
+            margin-left: 51px;
+            padding-bottom: 15px;
+            font-size: 14px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.822);
+        }
+        .my-list-img {
+            display: grid;
+            grid-template-columns: 240px 240px 240px 240px 240px;
+            grid-template-rows: 1fr;
+            justify-content: center;
+            column-gap: 10px;
+            margin-bottom: 25px;
+    
+            li img {
+                width: 100%;
+            }
+        }
+    }
+    .section-trending {
+        p {
+            margin-left: 51px;
+            padding-bottom: 15px;
+            font-size: 14px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.822);
+        }
+        .trending-list-img {
+            display: grid;
+            grid-template-columns: 240px 240px 240px 240px 240px;
+            grid-template-rows: 1fr;
+            justify-content: center;
+            column-gap: 10px;
+            margin-bottom: 25px;
+    
+            li img {
+                width: 100%;
+            }
+        }
+    }
+    .section-foreign-series {
+        p {
+            margin-left: 51px;
+            padding-bottom: 15px;
+            font-size: 14px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.822);
+        }
+        .foreign-series-img {
+            display: grid;
+            grid-template-columns: 240px 240px 240px 240px 240px;
+            grid-template-rows: 1fr;
+            justify-content: center;
+            column-gap: 10px;
+            margin-bottom: 25px;
+
+            li img {
+                width: 100%;
+            }
+        }
+    }
+    .section-Eccentric-series {
+        p {
+            margin-left: 51px;
+            padding-bottom: 15px;
+            font-size: 14px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.822);
+        }
+        .Eccentric-series-img {
+            display: grid;
+            grid-template-columns: 240px 240px 240px 240px 240px;
+            grid-template-rows: 1fr;
+            justify-content: center;
+            column-gap: 10px;
+            margin-bottom: 25px;
+
+            li img {
+                width: 100%;
+            }
+        }
+    }
+    .section-redes {
+        .list-redes {
+            display: flex;
+            flex-direction: row;
+            gap: 16px;
+            align-items: center;
+            margin-bottom: 20px;
+            margin-left: 51px;
+        }
+    }
+}
